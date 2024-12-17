@@ -26,5 +26,5 @@ python main.py
 ## Compute statistics
 
 ```bash
-python .\compute_statistics.py ground_truth.json predictions.json
+python .\compute_wer.py ground_truth.json predictions.json
 ```
