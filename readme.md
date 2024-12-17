@@ -17,8 +17,14 @@ python main.py
 python .\perturb_audio.py  .\data\commonvoice_subset\ .\data\perturbed_1_255\ --epsilon 1/255
 ```
 
-# Results
+## Run audio transcription
 
-50db distortion - no success
-35db distortion - no success
-20db distortion - success
+```bash
+python main.py
+```
+
+## Compute statistics
+
+```bash
+python .\compute_statistics.py ground_truth.json predictions.json
+```
