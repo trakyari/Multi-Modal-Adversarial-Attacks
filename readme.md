@@ -8,7 +8,6 @@
 
 ```bash
 conda activate
-python main.py
 ```
 
 ## Perturb audio
